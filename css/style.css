@@ -1,0 +1,106 @@
+h3 {
+    color: blue;
+}
+
+.class1 {
+    font-size: 32px;
+}
+
+#id1 {
+    font-size: 48px;
+}
+
+[title] {
+    color: aqua;
+}
+
+p.class1[title] {
+    color: blueviolet;
+}
+
+p>*>span {
+    color: brown;
+}
+
+.class1+div {
+    color: blue;
+}
+
+.class1~div {
+    font-size: 20px;
+}
+
+.class2.class3,
+.class4 {
+    color: blueviolet;
+}
+
+.class2::before {
+    content: "before";
+}
+
+.class2::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+}
+
+.nth:nth-child(even) {
+    color: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block1 {
+    background-color: aqua;
+    width: 12rem;
+    height: 25rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    margin: 2rem 1rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1rem solid #000;
+    box-sizing: border-box;
+}
+
+.block2 {
+    background-color: blueviolet;
+    max-width: 30rem;
+    min-height: 10rem;
+    max-height: 20rem;
+    padding: 1rem;
+    padding-top: -2rem;
+    padding-left: auto;
+    margin: -6rem 1rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1rem solid #000;
+    box-sizing: border-box;
+}
+
+.block3 {
+    background-color: blueviolet;
+    width: fit-content;
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+    background-color: blueviolet;
+    margin: 1rem;
+    padding: 1rem;
+}
